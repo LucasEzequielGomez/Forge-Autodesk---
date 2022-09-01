@@ -1,15 +1,16 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
         {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/start.js",
+            "program": "/start.js",
             "env": {
                 "FORGE_CLIENT_ID": "lQ0AAu2D8YmUSKO0cxYVaf3MVGJutMEa",
                 "FORGE_CLIENT_SECRET": "CBCADmdXIQrMAsAs",
-                "FORGE_CALLBACK_URL": "https://oauth.pstmn.io/v1/browser-callback"
+                "FORGE_CALLBACK_URL": "http://localhost:3000/api/forge/callback/oauth"
             }
         }
     ]
